@@ -12,6 +12,13 @@ public class KarateChop {
                 result = middleIndex;
                 break;
             }
+
+            if(middleValue > target){
+                limit = middleIndex;
+            }
+            if(middleValue < target){
+                start = middleIndex + 1;
+            }
         }
         return result;
     }

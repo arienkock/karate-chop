@@ -15,5 +15,6 @@ public class KarateChopTest {
 //        assertEquals(KarateChop.search(3, new int[0]), -1);
 //        assertEquals(KarateChop.search(3, new int[] {0,1,2,3}), 3);
         assertEquals(KarateChop.search(0, new int[] {0}), 0);
+        assertEquals(KarateChop.search(0, new int[] {0,5,6,7,8,9}), 5);
     }
 }
